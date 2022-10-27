@@ -2,7 +2,7 @@
 
 Cloud9 上にある Sinatra のコードを docker-compose で使用できるようにする Shell ファイル。
 
-1. スクリプト (migrate-c9-to-docker-compose.sh ) をプロジェクトフォルダに入れる
+1. スクリプト (sinatra-migrate-c9-to-docker-compose.sh ) をプロジェクトフォルダに入れる
 2. cd でプロジェクトフォルダに移動
 3. sh migrate-c9-to-docker-compose.sh を実行
 4. docker-compose up -d でコンテナの起動

@@ -3,7 +3,7 @@ cat <<'EOF' > config/database.yml
 default_env: &default
   adapter: postgresql
   encoding: unicode
-  database: s_count
+  database: data
 
 development:
   <<: *default

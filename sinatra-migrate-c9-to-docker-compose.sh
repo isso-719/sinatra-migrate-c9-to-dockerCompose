@@ -49,7 +49,7 @@ cat <<'EOF' > Dockerfile
 FROM ruby:3.0.0
 
 WORKDIR /app
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 
 RUN bundle install
 EOF

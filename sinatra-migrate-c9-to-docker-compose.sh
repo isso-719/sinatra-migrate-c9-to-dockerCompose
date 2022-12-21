@@ -23,7 +23,7 @@ services:
     build: .
     command: bundle exec ruby app.rb -o 0.0.0.0
     ports:
-      - 8080:4567
+      - 4567:4567
     volumes:
       - .:/app
     depends_on:
